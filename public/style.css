@@ -1,0 +1,91 @@
+
+*{
+  box-sizing: border-box;
+}
+body{
+    margin: 0;
+    font-family: Roboto; 
+    background: rgb(10, 10, 12);
+  }
+  .wrapper{
+    max-width: 960px;
+    margin: 0 auto;
+  }
+  h1{
+    margin: 40px auto;
+    color: #017a34;
+    text-align: center;
+  }
+  ul{
+    padding: 0;
+    list-style-type: none;
+  }
+  li{
+    padding: 6px 10px;
+    border: 1px solid rgb(48, 48, 48);
+    margin: 10px auto;
+  }
+  li h4{
+    color: #009423;
+    margin: 0;
+    text-transform: capitalize;
+  }
+  li p{
+    color: rgb(171, 170, 170);
+    margin: 8px 0 0;
+  }
+  footer{
+    background: rgb(10, 7, 2);
+    padding: 60px;
+    margin-top: 60px;
+  }
+  form{
+    width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: 1fr 1fr;
+    }
+    div{
+      width: 40%;
+    }
+
+  label{
+    display: block;
+    font-weight: bold;
+    font-size: 0.8em;
+    color: #cececea3;
+    margin: 16px 0 6px;
+  }
+  input, select{
+    width: 70%;
+    padding: 6px;
+    border: 1px solid rgb(37, 37, 37);
+    border-radius: 4px;
+    background: rgba(10, 10, 12, 0.465);
+  }
+  .field{
+    display: inline-block;
+    margin: 0 10px;
+  }
+  button{
+    color: white;
+    border: 0;
+    background: #017a34;
+    padding: 15px 10px;
+    width: 30%;
+    border-radius: 4px;
+    margin-top: 40px;
+    /* font-size: 1.1rem; */
+  }
+  footer a{
+    text-align: center;
+    display: block;
+    color: #999;
+    margin-top: 40px;
+    font-size: 0.7em;
+
+  }
